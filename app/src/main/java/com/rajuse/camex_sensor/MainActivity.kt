@@ -295,6 +295,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     }
 
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onSensorChanged(event: SensorEvent?) {
 
         mainViewModel.onSensorChanged(event, onMoveFastDetect = {
